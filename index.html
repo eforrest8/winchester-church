@@ -1,0 +1,163 @@
+<HTML>
+<META charset="UTF-8">
+<HEAD>
+	<META name="Description" content="Church of Christ in Winchester, Indiana">
+	<TITLE>Winchester Indiana Church of Christ</TITLE>
+	<META name="viewport" content="width=device-width, initial-scale=1.0">
+	<SCRIPT type="text/javascript">
+		function updateStyleSheet() {
+			var scrollWidth = getScrollbarWidth();
+			var w = window,
+    		d = document,
+    		e = d.documentElement,
+    		g = d.getElementsByTagName('body')[0],
+    		x = w.innerWidth || e.clientWidth || g.clientWidth;
+			if (x<=320) {
+				topimage.style.width = 320 - scrollWidth
+			}
+		}
+		function getScrollbarWidth() {
+			var outer = document.createElement("div");
+			outer.style.visibility = "hidden";
+			outer.style.width = "100px";
+			outer.style.msOverflowStyle = "scrollbar"; // needed for WinJS apps
+
+			document.body.appendChild(outer);
+
+			var widthNoScroll = outer.offsetWidth;
+			// force scrollbars
+			outer.style.overflow = "scroll";
+
+			// add innerdiv
+			var inner = document.createElement("div");
+			inner.style.width = "100%";
+			outer.appendChild(inner);
+
+			var widthWithScroll = inner.offsetWidth;
+
+			// remove divs
+			outer.parentNode.removeChild(outer);
+
+			return widthNoScroll - widthWithScroll;
+		}
+	</SCRIPT>
+	<STYLE>
+		BODY {
+			margin: 0;
+			padding: 0;
+			background: url(./noise.png) #FFF;
+			height: 100%;
+		}
+		@media all and (min-width: 330px) {
+			IMG.topimage {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+			} }
+		@media all and (max-width: 330px) {
+			IMG.topimage {
+				display: block;
+				margin-left: auto;
+				margin-right: auto;
+				width: 310px;
+		} }
+		IMG.line {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 100%;
+			height: 1px;
+		}
+		HR.line {
+			margin: 0;
+			padding: 0;
+		}
+		DIV.content {
+			background-color: #FFF;
+			width: 640px;
+			max-width: 100%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			height: auto;
+			min-height: 100%;
+			-webkit-box-shadow:0px 0 64px 64px white;
+			-moz-box-shadow:0px 0 64px 64px white;
+			box-shadow:0px 0 64px 64px white;
+		}
+		DIV.navbar {
+			text-align: center;
+			padding-bottom: 2px;
+		}
+		DIV.text {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 8px;
+			width: 90%;
+		}
+		A.barlink {
+			padding-left: 2px;
+			padding-right: 2px;
+		}
+		h1 {
+			font-size: 18pt;
+		}
+		h2 {
+			font-size: 16pt;
+		}
+		li {
+			text-align: left;
+		}
+	</STYLE>
+</HEAD>
+<BODY onload="updateStyleSheet();">
+
+	<DIV class="content">
+		<IMG class="topimage" id="topimage" src="./winchurchchristimage.JPG" alt="Church Image"></IMG>
+		<IMG class="line" src="./divider.png" alt="---"></IMG>
+		<!-- <HR class="line" width="100%" /> -->
+		<DIV class="navbar">
+			<DIV><b>Winchester Church of Christ</b></DIV>
+			<A class="barlink" href="http://winchesterinchurchofchrist.com">What We Believe</A>
+			<A class="barlink" href="http://winchesterinchurchofchrist.com/contact.html">Location &amp; Contact</A>
+		</DIV>
+		<IMG class="line" src="./divider.png" alt="---"></IMG>
+		<!-- <HR class="line" width="100%" /> -->
+		<br>
+		<DIV class="text">
+
+			<h1>What We Believe</h1>
+			<h2>We believe and teach that the Bible is the only word of God.</h2>
+			<li>Psalm 119:160, "The sum of Your word is truth, And every one of Your righteous ordinances is everlasting."</li>
+			<li>1 Cor 2:13 "…which things we also speak, not in words taught by human wisdom, but in those taught by the Spirit, combining spiritual thoughts with spiritual words."</li>
+			<li>Rev 22:18-19 "I testify to everyone who hears the words of the prophecy of this book: if anyone adds to them, God will add to him the plagues which are written in this book; and if anyone takes away from the words of the book of this prophecy, God will take away his part from the tree of life and from the holy city, which are written in this book."</li>
+			<h2>We believe and teach that Jesus came into this world as God in the flesh, performed miracles, and taught a message of repentance and faith toward God.</h2>
+			<li>Luke 4:18-19 "The Spirit of the Lord is upon Me, Because He anointed Me to preach the gospel to the poor. He has sent Me to proclaim release to the captives, And recovery of sight to the blind, To set free those who are oppressed, To proclaim the favorable year of the Lord."</li>
+			<h2>We believe and teach that Jesus is the Christ, that He was crucified on the cross, buried dead in the ground, and resurrected on the third day.</h2>
+			<li>1 Cor 15:3-4 "…Christ died for our sins according to the Scriptures, and that He was buried, and that He was raised on the third day according to the Scriptures…"</li>
+			<li>1 Peter 2:24 "…and He Himself bore our sins in His body on the cross…"</li>
+			<li>Galatians 1:4 "…who gave Himself for our sins so that He might rescue us from this present evil age…"</li>
+			<h2>We believe and teach that Jesus Christ desires His gospel message of faith In Him, repentance to Him, confession of Him, baptism into Him and service through Him.</h2>
+			<li>Matthew 28:19 "Go therefore and make disciples of all the nations, baptizing them in the name of the Father and the Son and the Holy Spirit,"</li>
+			<li>Luke 24:47 "and that repentance for forgiveness of sins would be proclaimed in His name to all the nations, beginning from Jerusalem."</li>
+			<li>Acts 8:36–37 "…and the eunuch said, "Look! Water! What prevents me from being baptized?" And Philip said, "If you believe with all your heart, you may." And he answered and said, "I believe that Jesus Christ is the Son of God.""</li>
+			<li>Ephesians 2:10 "For we are His workmanship, created in Christ Jesus for good works, which God prepared beforehand so that we would walk in them."</li>
+			<br>
+
+	</DIV class="text">
+	    <figure>
+	        <iframe width="560" height="315" src="https://www.youtube.com/embed/DmiH89xWZ0Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	        <figcaption>
+	            What must I do to be saved? The answer to this question has implications both now and for eternity. Sadly, wrong answers are being given all the time. In this study, Don Blackwell opens the Bible and shares with us God's answer to this question.
+	        </figcaption>
+	    </figure>
+	    <figure>
+	        <iframe width="560" height="315" src="https://www.youtube.com/embed/TH79F0Hn56U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	        <figcaption>
+	            Contemporary religious scholars and historians estimate that there are approximately 38,000 denominations in the world today. Have you ever wondered if the true church still exists today? Does it really matter to which church I belong? If the true church does exist, how can I find it?
+	        </figcaption>
+	    </figure>
+	</DIV>
+</BODY>
+</HTML>
